@@ -1,7 +1,7 @@
 * {
 font-family: 'Open Sans', sans-serif,Regular;
-font-weight:bold;
 font-size: 16px;
+font-weight:bold;
 color: #B5B6B6;
 
 }
@@ -16,10 +16,12 @@ fieldset{
 }
 
 .information_one{
+  font-weight:bold;
 padding-left: 40px;
 padding-top: -20px;
 }
 .information_two{
+  font-weight:bold;
   padding-left: 208px;
   padding-top: -20px;
 
@@ -39,10 +41,92 @@ div{
 
 
 }
+
+.label_one{
+  float:left;
+  margin: 60px 0 0 30px;
+  font-family: 'Open Sans', sans-serif,Regular;
+  font-size: 10px;
+  font-weight:none;
+  color: #000000;
+}
+
+.input_one{
+  width: 285px;
+  height: 33px;
+  color: #000000; 
+  margin-left: 30px;
+  border-width: 1px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom-color: #000000; 
+  outline:none;
+
+}
+.input_one:focus{
+  border-color:#5E9754;
+}
+
+.label_one_string_two{
+  float:left;
+  margin: 25px 0 0 30px;
+  font-family: 'Open Sans', sans-serif,Regular;
+  font-size: 10px;
+  font-weight:none;
+  color: #000000;
+}
+
+.CW{
+  font-family: 'Open Sans', sans-serif,Regular;
+  font-size: 10px;
+  font-weight:none;
+  color: #000000;
+  padding-left: 100px;
+}
+
+.question{
+font-family: 'Open Sans', sans-serif,Regular;
+font-size: 10px;
+font-weight:none;
+color: #000000;
+border:1px solid black;
+border-radius: 50%;
+float:right;
+margin: -1px 0 0 4px;
+padding: 3px 6px 3px 6px;
+}
+
 .form_two{
   width: 345px;
   height: 210px;
   background-color: white;
   border-radius: 15px;
   box-shadow: -1px 13px 70px -20px,1px 1px 70px -20px;
+}
+
+.label_two{
+  float:left;
+  margin: 60px 0 0 30px;
+  font-family: 'Open Sans', sans-serif,Regular;
+  font-size: 10px;
+  font-weight:none;
+  color: #000000;
+}
+
+.input_two{
+  width: 285px;
+  height: 33px;
+  color: #000000; 
+  margin-left: 30px;
+  border-width: 1px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom-color: #000000; 
+  outline:none;
+
+}
+.input_two:focus{
+  border-color:#5E9754;
 }
