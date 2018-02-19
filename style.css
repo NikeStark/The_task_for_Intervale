@@ -3,7 +3,6 @@ font-family: 'Open Sans', sans-serif,Regular;
 font-size: 16px;
 font-weight:bold;
 color: #B5B6B6;
-
 }
 
 fieldset{
@@ -54,13 +53,13 @@ div{
 .input_one{
   width: 285px;
   height: 33px;
-  color: #000000; 
+  color: #000000;
   margin-left: 30px;
   border-width: 1px;
   border-top: none;
   border-right: none;
   border-left: none;
-  border-bottom-color: #000000; 
+  border-bottom-color: #000000;
   outline:none;
 
 }
@@ -82,7 +81,7 @@ div{
   font-size: 10px;
   font-weight:none;
   color: #000000;
-  padding-left: 100px;
+  padding-left: 96px;
 }
 
 .question{
@@ -117,16 +116,95 @@ padding: 3px 6px 3px 6px;
 .input_two{
   width: 285px;
   height: 33px;
-  color: #000000; 
+  color: #000000;
   margin-left: 30px;
   border-width: 1px;
   border-top: none;
   border-right: none;
   border-left: none;
-  border-bottom-color: #000000; 
+  border-bottom-color: #000000;
   outline:none;
 
 }
 .input_two:focus{
   border-color:#5E9754;
+}
+
+.MM{
+  width: 41px;
+  height: 33px;
+  color: #000000;
+  text-align: center;
+  padding: 10px 0 7px 0;
+  border-width: 1px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom-color: #000000;
+  outline:none;
+
+}
+
+.GG{
+  width: 41px;
+  height: 33px;
+  color: #000000;
+  text-align: center;
+  padding: 10px 0 7px 0;
+  border-width: 1px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom-color: #000000;
+  outline:none;
+}
+
+.slash{
+  color: #000000;
+  font-weight: bold;
+  font-size: 10px;
+  margin: 0 3px 0 3px;
+}
+
+input::-webkit-input-placeholder {
+   color: black;
+ }
+ input:focus::-webkit-input-placeholder {
+    color:transparent;
+  }
+
+
+.after_cw{
+  width: 41px;
+  height: 33px;
+  margin-left: 70px;
+  color: #000000;
+  text-align: center;
+  padding: 10px 0 7px 0;
+  border-width: 1px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom-color: #000000;
+  outline:none;
+}
+
+.checkbox_one{
+  margin:23px 2px 0 33px;
+  vertical-align: -3px;
+  zoom:1.2;
+
+}
+.for_checkbox_one{
+  font-size: 12px;
+}
+
+.checkbox_two{
+  margin:23px 2px 0 178px;
+  vertical-align: -3px;
+  zoom:1.2;
+
+}
+.for_checkbox_two{
+  font-size: 12px;
 }

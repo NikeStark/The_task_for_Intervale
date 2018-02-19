@@ -16,13 +16,23 @@
 
 <div class="form_one">
 <label class="label_one">Номер карты</label></br>
-<input required type="text" maxlength="12" 
+<input required type="text" maxlength="16"
 class="input_one" name="input_one">
-<label class="label_one_string_two">Срок действия<label class="CW">CW<label class="question">?</label>
+<label class="label_one_string_two">Срок действия<label class="CW">CW/CVC<label class="question">?</label></br>
 
+<input required type="text" maxlength="2"
+class="MM" name="MM" placeholder="ММ">
+<label class="slash">/</label>
+<input required type="text" maxlength="2"
+class="GG" name="GG" placeholder="ГГ">
+<input required type="text" maxlength="3"
+class="after_cw" name="after_cw">
 </div>
 
-<div class="form_two"><label class="label_two">Номер карты</label></br><input required type="text" class="input_two" name="form_two"></div>
+<div class="form_two"><label class="label_two">Номер карты</label></br><input required type="text" class="input_two" name="form_two"></div></br>
+
+<input class="checkbox_one" type="checkbox" name="checkbox"><label class="for_checkbox_one">Отправить чек на e-mail</label>
+<input class="checkbox_two" type="checkbox" name="checkbox"><label class="for_checkbox_two">Добавить сообщение получателю</label></br>
 
 </fieldset>
 
