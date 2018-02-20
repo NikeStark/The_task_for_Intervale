@@ -3,6 +3,7 @@ font-family: 'Open Sans', sans-serif,Regular;
 font-size: 16px;
 font-weight:bold;
 color: #B5B6B6;
+
 }
 
 fieldset{
@@ -84,10 +85,9 @@ div{
   padding-left: 96px;
 }
 
-.question{
+.question_one{
 font-family: 'Open Sans', sans-serif,Regular;
 font-size: 10px;
-font-weight:none;
 color: #000000;
 border:1px solid black;
 border-radius: 50%;
@@ -166,9 +166,12 @@ padding: 3px 6px 3px 6px;
   margin: 0 3px 0 3px;
 }
 
-input::-webkit-input-placeholder {
+input.MM::-webkit-input-placeholder {
    color: black;
  }
+ input.GG::-webkit-input-placeholder {
+    color: black;
+  }
  input:focus::-webkit-input-placeholder {
     color:transparent;
   }
@@ -190,7 +193,7 @@ input::-webkit-input-placeholder {
 }
 
 .checkbox_one{
-  margin:23px 2px 0 33px;
+  margin:18px 2px 0px 33px;
   vertical-align: -3px;
   zoom:1.2;
 
@@ -200,11 +203,83 @@ input::-webkit-input-placeholder {
 }
 
 .checkbox_two{
-  margin:23px 2px 0 178px;
+  margin:18px 2px 0 178px;
   vertical-align: -3px;
   zoom:1.2;
 
 }
 .for_checkbox_two{
   font-size: 12px;
+}
+
+.question_two{
+  font-family: 'Open Sans', sans-serif,Regular;
+  font-size: 10px;
+  border:1px solid;
+  border-radius: 50%;
+  margin: -1px 0 0 4px;
+  padding: 3px 6px 3px 6px;
+}
+
+
+.input_email{
+  font-size: 15px;
+  width: 345px;
+  height: 44px;
+  margin-top: 2px;
+  padding-left: 18px;
+  color: #000000;
+  margin-left: 40px;
+  outline:none;
+  margin-bottom: 20px;
+}
+
+input::-webkit-input-placeholder {
+   color: #B5B6B6;
+}
+
+.transfer_amount{
+  margin-left: 40px;
+  font-size: 12px;
+}
+
+.input_for_transfer_amount{
+  font-size: 15px;
+  width: 345px;
+  height: 44px;
+  margin-top: 2px;
+  padding-left: 18px;
+  color: #000000;
+  margin-left: 40px;
+  outline:none;
+  margin-bottom: 20px;
+}
+
+.total_amount{
+  margin-left: 40px;
+  font-size: 12px;
+}
+
+.input_for_total_amount{
+  font-size: 15px;
+  width: 345px;
+  height: 44px;
+  margin-top: 2px;
+  padding-left: 18px;
+  color: #000000;
+  margin-left: 40px;
+  outline:none;
+  margin-bottom: 15px;
+}
+
+.button{
+  background-color: #4A914D;
+  font-size: 12px;
+  width: 345px;
+  height: 35px;
+  margin-top: 2px;
+  padding-left: 18px;
+  color: #FFFFFF;
+  margin-left: 40px;
+  border: none;
 }

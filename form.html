@@ -5,11 +5,14 @@
     <meta name="description" content="The_form"/>
     <meta name="author" content="Aliaksandr_Kazutsin"/>
     <link rel="stylesheet" href="style.css">
+
     <script src="config.js"></script>
     <title>The_form_for_Intervale</title>
   </head>
   <body>
 
+
+<form action=" " method="post" autocomplete="off" enctype="multipart/form-data">
 <fieldset>
   <label class="information_one">Данные отправителя</label>
   <label class="information_two">Данные получателя</label>
@@ -18,7 +21,7 @@
 <label class="label_one">Номер карты</label></br>
 <input required type="text" maxlength="16"
 class="input_one" name="input_one">
-<label class="label_one_string_two">Срок действия<label class="CW">CW/CVC<label class="question">?</label></br>
+<label class="label_one_string_two">Срок действия<label class="CW">CW/CVC<label class="question_one">?</label></br>
 
 <input required type="text" maxlength="2"
 class="MM" name="MM" placeholder="ММ">
@@ -32,10 +35,20 @@ class="after_cw" name="after_cw">
 <div class="form_two"><label class="label_two">Номер карты</label></br><input required type="text" class="input_two" name="form_two"></div></br>
 
 <input class="checkbox_one" type="checkbox" name="checkbox"><label class="for_checkbox_one">Отправить чек на e-mail</label>
-<input class="checkbox_two" type="checkbox" name="checkbox"><label class="for_checkbox_two">Добавить сообщение получателю</label></br>
+<input class="checkbox_two" type="checkbox" name="checkbox"><label class="for_checkbox_two">Добавить сообщение получателю</label><label class="question_two">?</label></br>
+
+<input required type="email" class="input_email" name="input_email" placeholder="Ваш e-mail"></br>
+
+<label class="transfer_amount">Сумма перевода</label></br>
+<input required type="text" maxlength="6" class="input_for_transfer_amount" name="input_for_transfer_amount" placeholder="От 500 до 500000"></br>
+
+<label class="total_amount">Итоговая сумма</label></br>
+<input required type="text" maxlength="6" class="input_for_total_amount" name="input_for_total_amount" placeholder="От 680 до 530150"></br>
+
+<input class="button" type="submit" name="submit" value="Перевести">
 
 </fieldset>
-
+</form>
 
   </body>
 </html>
