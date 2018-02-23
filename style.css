@@ -272,6 +272,10 @@ input::-webkit-input-placeholder {
   margin-bottom: 15px;
 }
 
+.checkbox_copy{
+   display:none;
+}
+
 .button{
   background-color: #4A914D;
   font-size: 12px;
@@ -287,8 +291,7 @@ input::-webkit-input-placeholder {
 @media screen and (max-width:790px) {
   .form_two{
       position: fixed;
-      margin:290px 30px 0 160px;
-
+      margin:290px 30px 0px 160px;
   }
 }
 
@@ -311,4 +314,70 @@ input::-webkit-input-placeholder {
     padding-left: 40px;
     padding-top: -20px;
   }
+}
+
+@media screen and (max-width:790px) {
+  .checkbox_and_for_checkbox_one{
+    position: fixed;
+    margin-top: 480px;
+}
+
+@media screen and (max-width:790px) {
+  .input_email{
+    position: fixed;
+    margin-top: 500px;
+    width: 610px
+}
+
+@media screen and (max-width:790px) {
+  .transfer_amount{
+    position: fixed;
+    margin-top: 540px;
+}
+
+@media screen and (max-width:790px) {
+  .input_for_transfer_amount{
+    position: fixed;
+    margin-top: 540px;
+    width: 610px
+}
+
+@media screen and (max-width:790px) {
+  .total_amount{
+    position: fixed;
+    margin-top: 580px;
+}
+
+@media screen and (max-width:790px) {
+  .input_for_total_amount{
+    position: fixed;
+    margin-top: 580px;
+    width: 610px
+}
+
+@media screen and (max-width:790px) {
+  .checkbox_copy{
+  display:inline;
+  position: fixed;
+  margin: 600px 0 20px -190;
+}
+
+@media screen and (max-width:790px) {
+  .button{
+  position: fixed;
+  margin-top: 635px;
+  width: 610px
+}
+
+@media screen and (max-width:790px) {
+  .checkbox_and_for_checkbox_two{
+display: none;
+}
+
+@media screen and (max-width:790px) {
+    fieldset {
+      margin:-20px;
+      width: 680px;
+      height: 820px;
+    }
 }
